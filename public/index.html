@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tick Brick</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Chart.js + Time adapter + Annotation plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.4.0/dist/chartjs-plugin-annotation.min.js"></script>
+</head>
+<body>
+  <div id="tickbrick-container">
+    <div id="top-bar">
+      <div id="tickbrick-logo">Logo</div>
+      <div id="tickbrick-datetime">
+        <div>
+          <span id="local-time">🕒 12:45</span>
+          <span id="local-date">Apr 20, 2025 🇬🇧</span>
+        </div>
+        <div>
+          <span id="market-time">🏛️ 07:45</span>
+          <span id="market-date">Apr 20, 2025 🇺🇸</span>
+        </div>
+      </div>      
+    </div>
+
+    <div id="app">
+      <div id="top-section">
+        <div id="chart-container">
+          <div id="chart-label">1 Day View</div>       
+          <canvas id="stockChart"></canvas>
+          <div id="price-summary">
+            <span id="open-price">Open: —</span>
+            <span id="high-price">High: —</span>
+            <span id="low-price">Low: —</span>
+          </div>   
+        </div>
+        <div id="info-panel">
+          <img id="logo" src="assets/logos/_AAPL.png" alt="Company Logo" />
+          <div id="company-info">
+            <div id="company-name-line">Apple Inc.</div>
+            <div id="ticker-symbol">(AAPL)</div>
+          </div>          
+          <div id="price-block">
+            <div id="price">$0.00</div>
+            <div id="price-change" class="change up">+0.00%</div>
+          </div>
+          <div id="last-updated">Updated: just now</div>
+        </div>
+      </div>
+
+      <div id="controls">
+        <div id="time-filters">
+          <button data-range="1d" class="active">Day</button>
+          <button data-range="1w">Week</button>
+          <button data-range="1m">Month</button>
+        </div>
+        <div id="navigation">
+          <button id="prev">◀ Prev</button>
+          <button id="refresh">Refresh</button>
+          <button id="next">Next ▶</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

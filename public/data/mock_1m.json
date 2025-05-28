@@ -1,0 +1,11 @@
+{
+    "symbol": "AAPL",
+    "interval": "1M",
+    "data": [
+      { "time": "Week 1", "price": 168.90 },
+      { "time": "Week 2", "price": 170.20 },
+      { "time": "Week 3", "price": 172.75 },
+      { "time": "Week 4", "price": 174.53 }
+    ]
+  }
+  

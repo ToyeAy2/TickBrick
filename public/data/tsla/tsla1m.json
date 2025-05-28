@@ -1,0 +1,12 @@
+{
+    "symbol": "TSLA",
+    "name": "Tesla Inc.",
+    "interval": "1M",
+    "data": [
+      { "time": "Week 1", "price": 170.50 },
+      { "time": "Week 2", "price": 176.80 },
+      { "time": "Week 3", "price": 183.10 },
+      { "time": "Week 4", "price": 190.70 }
+    ]
+  }
+  

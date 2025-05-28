@@ -1,0 +1,13 @@
+{
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "interval": "1W",
+    "data": [
+      { "time": "Mon", "price": 172.40 },
+      { "time": "Tue", "price": 173.85 },
+      { "time": "Wed", "price": 174.00 },
+      { "time": "Thu", "price": 174.20 },
+      { "time": "Fri", "price": 174.53 }
+    ]
+  }
+  

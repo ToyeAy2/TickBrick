@@ -1,0 +1,13 @@
+{
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc.",
+    "interval": "1W",
+    "data": [
+      { "time": "Mon", "price": 120.20 },
+      { "time": "Tue", "price": 121.40 },
+      { "time": "Wed", "price": 122.00 },
+      { "time": "Thu", "price": 123.00 },
+      { "time": "Fri", "price": 123.40 }
+    ]
+  }
+  
