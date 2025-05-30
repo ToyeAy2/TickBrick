@@ -1,0 +1,17 @@
+{
+  "name": "tickbrick",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
